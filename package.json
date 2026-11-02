@@ -1,0 +1,5 @@
+{
+  "name": "musicmate-pilot", "version": "1.0.0", "private": true, "type": "module",
+  "scripts": {"start": "node server.js", "test": "node --test tests/core.test.js", "test:e2e": "node tests/browser.mjs", "check": "node --check app.js && node --check core.js && node --check db.js && node --check server.js"},
+  "devDependencies": {"playwright": "1.58.2"}
+}
